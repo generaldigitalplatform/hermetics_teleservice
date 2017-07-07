@@ -1,0 +1,239 @@
+body {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color:#e7e7e7 !important;
+  font-family: ubuntu;
+}
+.titlehead, h4{
+  color: #16A6E5;
+}
+.feedbackcontainer{
+  border-top: 6px solid #16A6E5;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+.titlehead{
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
+.navbar-brand{
+  position: relative;
+  width: 60px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-custom {
+    background-color: #e7e7e7;
+    border:0;
+}
+
+.icon-size{ 
+font-size:2em; 
+}
+.panel-footer{
+  background-color: #e7e7e7;
+}
+.form-control{
+
+  background-color: #d9d9d9;
+  border:1px solid #e7e7e7;
+}
+.progress{
+  background-color: #d9d9d9;
+}
+.progress-bar{
+  background-color: #16A6E5;
+}
+.btn{
+  background-color: #16A6E5;
+  border-color:#16A6E5;
+}
+/*.btn:hover{
+  background-color: #16A6E5;
+  border-color:#16A6E5;
+}*/
+.btn-primary{
+  background-color: #16A6E5;
+  border-color:#16A6E5;
+}
+.btn-danger{
+  background-color: #16A6E5;
+  border-color:#16A6E5;
+}
+.pull-right .dropdown-menu:after {
+    left: auto;
+    right: 13px;
+}
+.btn-group.pull-right {
+    float: right !important; 
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.pull-right .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border:0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border:0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.account-wall .form-control{
+  background-color: #ffffff;
+  border:1px solid #e7e7e7;
+  padding: 5 5;
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.custome-icon {
+  height: 30px;
+  width: 30px;
+}
+.col-md-3{
+  width: 33%;
+  text-align: left;
+  border:1px solid #d9d9d9;
+}
+.no-space-break{
+    white-space:nowrap;
+
+  }
+label.col-sm-2.control-label{
+    position: relative;
+    min-height: 0px;
+    padding-right: 0px;
+    padding-left: 5px;
+
+}
+.col-sm-8{
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 15px;
+
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.form-control {
+    display: block;
+    width: 75%;
+    height: 34px;
+    padding: 1px 1px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #d9d9d9;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+select.btn.btn-default{
+  color:16A6E5;
+  border:#d9d9d9;
+}
+h5{
+  font-family:ubuntu;
+  font-size:14px;
+}
+
+/*label {
+   float: left; 
+   width: 10em;
+   margin-right: 1em; 
+}
+fieldset.submit { float: none; width: auto; border: 0 none #FFF; padding-left: 12em; }
+*//*[class^="icon-custom-"],
+[class*="icon-custom-"] {
+  background-image: url("../../public/images/logout.png");
+}
+.icon-custom-logout { 
+  background-image: url("../../public/images/logout.png");
+  background-position : -530px -700px; width : 142px; height : 158px;  
+}*/

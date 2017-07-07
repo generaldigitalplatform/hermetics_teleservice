@@ -1,0 +1,30 @@
+{
+  "name": "gdp-hermetics",
+  "version": "1.0.0",
+  "description": "telesales connect with customer and collect data",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongoose": "^4.10.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "node-inspector": "^1.1.1"
+  }
+}

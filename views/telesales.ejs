@@ -1,0 +1,20 @@
+<% include ./partials/header.ejs %>
+<link href="../public/css/gdp-1.0.0/telesales.css" rel="stylesheet">
+
+<div class="container">
+    <div class="titlehead">
+      <h4>Telesales</h4>   
+      <div class="btn-group pull-right">
+       <select type="button" class="btn btn-default" onchange="survey.locale = this.value; survey.render();">
+                <option value="en" selected=selected>English</option>
+                <option value="ta">Tamil</option>
+       </select>
+      </div>
+    </div>
+    <div class="feedbackcontainer">
+     <div id="surveyElement"></div>
+    </div>
+
+</div>
+<% include ./partials/footer.ejs %>
+
